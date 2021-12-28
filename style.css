@@ -76,7 +76,37 @@ nav ul li a {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.content .section .hero .hero-body p {
+  padding: 0.5rem 0;
+}
+
+.content .section .hero .hero-body .button {
+  margin: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1.5rem;
+  border: 0px;
+  background-color: white;
+  color: black;
+  border-radius: 45px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+}
+
+.content .section .hero .hero-body .button:hover {
+  background-color: #2ee59d;
+  -webkit-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+          box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
 }
 
 .footer {
