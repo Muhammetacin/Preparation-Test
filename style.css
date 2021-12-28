@@ -5,17 +5,20 @@
 
 body {
   background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
   background-color: aquamarine;
   text-align: center;
   padding: 1rem 0;
+  text-transform: uppercase;
 }
 
 nav {
   background-color: white;
   text-align: right;
+  padding: 2rem 0;
 }
 
 nav ul {
@@ -33,11 +36,19 @@ nav ul li {
   margin: 0 1rem;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
 .container {
   background-color: white;
   min-width: 80vw;
   max-width: 80vw;
   margin-left: 10vw;
   margin-right: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

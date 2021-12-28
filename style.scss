@@ -5,17 +5,20 @@
 
 body {
     background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
     background-color: aquamarine;
     text-align: center;
     padding: 1rem 0;
+    text-transform: uppercase;
 }
 
 nav {
     background-color: white;
     text-align: right;
+    padding: 2rem 0;
     
     ul {
         display: flex;
@@ -25,6 +28,11 @@ nav {
 
         li {
             margin: 0 1rem;
+            
+            a {
+                text-decoration: none;
+                color: gray;
+            }
         }
     }
     
@@ -36,4 +44,5 @@ nav {
     max-width: 80vw;
     margin-left: 10vw;
     margin-right: 10vw;
+    display: flex;
 }
