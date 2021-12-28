@@ -8,13 +8,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
-  background-color: aquamarine;
-  text-align: center;
-  padding: 1rem 0;
-  text-transform: uppercase;
-}
-
 nav {
   background-color: white;
   text-align: right;
@@ -27,7 +20,7 @@ nav {
     margin-right: 10vw;
 
     li {
-      margin: 0 1rem;
+      margin: 0 0 0 2rem;
 
       a {
         text-decoration: none;
