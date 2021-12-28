@@ -74,6 +74,12 @@ nav ul li a:active {
   padding-bottom: 1.5rem;
 }
 
+.content .section hr {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .content .hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://cdn.pixabay.com/photo/2021/12/12/22/48/mountain-6867144_960_720.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2021/12/12/22/48/mountain-6867144_960_720.jpg");
