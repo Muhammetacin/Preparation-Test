@@ -14,6 +14,19 @@ header {
 }
 
 nav {
+    background-color: white;
+    text-align: right;
+    
+    ul {
+        display: flex;
+        justify-content: right;
+        list-style-type: none;
+        margin-right: 10vw;
+
+        li {
+            margin: 0 1rem;
+        }
+    }
     
 }
 
