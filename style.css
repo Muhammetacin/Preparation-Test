@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.container {
+  background-color: white;
+  min-width: 80vw;
+  max-width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+/*# sourceMappingURL=style.css.map */
