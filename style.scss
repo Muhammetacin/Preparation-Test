@@ -46,6 +46,13 @@ nav {
     margin-right: 10vw;
     display: flex;
     height: 70vh;
+
+    .section {
+
+        .hero {
+            background-color: gray;
+        }
+    }
 }
 
 .footer {
@@ -55,5 +62,10 @@ nav {
 
     p {
         text-align: center;
+        font-size: 0.75rem;
+        
+        sup {
+            font-size: 0.5rem;
+        }
     }
 }

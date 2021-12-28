@@ -53,6 +53,10 @@ nav ul li a {
   height: 70vh;
 }
 
+.content .section .hero {
+  background-color: gray;
+}
+
 .footer {
   background-color: #1b1b1b;
   color: white;
@@ -61,5 +65,10 @@ nav ul li a {
 
 .footer p {
   text-align: center;
+  font-size: 0.75rem;
+}
+
+.footer p sup {
+  font-size: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */
