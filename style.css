@@ -41,7 +41,7 @@ nav ul li a {
   color: gray;
 }
 
-.container {
+.content {
   background-color: white;
   min-width: 80vw;
   max-width: 80vw;
@@ -50,26 +50,16 @@ nav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 70vh;
 }
 
 .footer {
   background-color: #1b1b1b;
   color: white;
   padding: 2rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 .footer p {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
